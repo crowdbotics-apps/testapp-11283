@@ -8,6 +8,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'pinax-notifications', 'url': 'http://pypi.python.org/pypi/pinax-notifications/5.0.1'},
 	{'name':'twilio', 'url': 'http://pypi.python.org/pypi/twilio/6.10.1'},
         {
             "name": "django-allauth",
