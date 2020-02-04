@@ -8,6 +8,7 @@ from home.models import CustomText, HomePage
 
 def home(request):
     packages = [
+	{'name':'twilio', 'url': 'http://pypi.python.org/pypi/twilio/6.10.1'},
         {
             "name": "django-allauth",
             "url": "https://pypi.org/project/django-allauth/0.38.0/",
